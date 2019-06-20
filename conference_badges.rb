@@ -18,5 +18,10 @@ end
 new_array
 end
 
-
+def printer(attendees)
+  batch_badge_creator
+  assign_rooms.each do |rooms|
+    puts rooms
+  end
+end
   
