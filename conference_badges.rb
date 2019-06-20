@@ -9,3 +9,7 @@ def batch_badge_creator(attendees)
     badge_maker(name)
   end
 end
+
+def assign_rooms(attendees)
+  attendees.map_with_index |name, index|
+  
